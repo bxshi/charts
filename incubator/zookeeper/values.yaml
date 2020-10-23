@@ -270,7 +270,7 @@ env:
 
   ## The maximum number of concurrent client connections that
   ## a server in the ensemble will accept.
-  ZOO_MAX_CLIENT_CNXNS: 60
+  ZK_MAX_CLIENT_CNXNS: 60
 
   ## The number of Tick by which a follower may lag behind the ensembles leader.
   ZK_SYNC_LIMIT: 10
